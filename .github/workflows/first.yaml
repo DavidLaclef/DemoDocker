@@ -22,7 +22,7 @@ jobs:
       mariadb:
         image: mariadb:latest
         env:
-          MARIADB_ROOT_PASSWORD: test
+          MARIADB_ROOT_PASSWORD: toor
           MARIADB_DATABASE: test
           MARIADB_USER: test
           MARIADB_PASSWORD: test
