@@ -1,0 +1,10 @@
+name: 02 - Deploy
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  Dockerbuild:
+    uses: ./.github/workflows/02-1_DockerBuild.yaml
+    secrets: inherit # Utilise les secrets du workflow parent, se trouant dans le repository gitHub
