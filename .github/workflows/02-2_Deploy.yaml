@@ -23,7 +23,7 @@ jobs:
           target: "."
 
       - name: Start App
-        uses: appleboy/ssh-action@v01.0.3
+        uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.AZURE_HOST }}
           port: ${{ secrets.AZURE_PORT }}
