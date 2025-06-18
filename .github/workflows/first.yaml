@@ -111,8 +111,9 @@ jobs:
       - name: Start E2E Tests
         uses: cypress-io/github-action@v6
         with:
-          runTests: false
+          install: false
           working-directory: frontend
+          start: npm run dev
 
       - name: Generate Coverage Report
         run: npm run cypress:cov
