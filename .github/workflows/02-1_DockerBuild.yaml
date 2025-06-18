@@ -39,5 +39,5 @@ jobs:
         with:
           context: frontend
           push: true
-          tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}-front:latest
+          tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME_LOWER }}-front:latest
           # ghcr.io/DavidLaclef/demodocker-front
