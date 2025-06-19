@@ -3,6 +3,9 @@ name: 01-2 - Integration SonarQube
 on:
   workflow_call
 
+permissions:
+  contents: read
+
 jobs:
   QualityBack:
     runs-on: ubuntu-latest
