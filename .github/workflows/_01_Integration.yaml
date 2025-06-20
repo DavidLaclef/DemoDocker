@@ -3,7 +3,11 @@ name: 01 - Integration
 on:
   push:
     branches:
-      - marcel
+      - develop
+
+  pull_request:
+    branches:
+      - main
 
 jobs:
   Test_Back_Front:
