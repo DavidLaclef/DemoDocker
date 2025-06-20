@@ -40,4 +40,4 @@ jobs:
           context: frontend
           push: true
           tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME_LOWER }}-front:jeanpeuxplus
-          # ghcr.io/DavidLaclef/demodocker-front
+          # ghcr.io/davidlaclef/demodocker-front
