@@ -9,4 +9,4 @@ jobs:
   Display_Data:
     runs-on: ubuntu-latest
     steps:
-      -run: env | sort
+      - run: env | sort
