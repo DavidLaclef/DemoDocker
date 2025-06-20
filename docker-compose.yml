@@ -24,7 +24,7 @@ services:
 
   golf_backend:
     container_name: golf_backend_build
-    image: ghcr.io/davidlaclef/demodocker-back:latest
+    image: ghcr.io/davidlaclef/demodocker-back:jeanpeuxplus
     build: ./backend/.
     environment:
       BDD_HOST: golf_bdd
@@ -36,7 +36,7 @@ services:
 
   golf_frontend_build:
     container_name: golf_frontend_build
-    image: ghcr.io/davidlaclef/demodocker-front:latest
+    image: ghcr.io/davidlaclef/demodocker-front:jeanpeuxplus
     build: ./frontend/.
     ports:
       - 80:80
