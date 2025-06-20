@@ -33,7 +33,7 @@ jobs:
           script: |
             echo ${{ secrets.DEMODOCKER_PAT }} | docker login ghcr.io -u ${{github.actor}} --password-stdin
 
-            docker compose pull ghcr.io/davidlaclef/demodocker-back:latest
-            docker compose pull ghcr.io/davidlaclef/demodocker-front:latest
+            docker compose pull ghcr.io/davidlaclef/demodocker-back:jeanpeuxplus
+            docker compose pull ghcr.io/davidlaclef/demodocker-front:jeanpeuxplus
 
-            docker compose up -d --remove-orphans
+            docker compose up -d
