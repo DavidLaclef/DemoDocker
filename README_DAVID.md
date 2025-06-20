@@ -7,6 +7,5 @@
 > npm i
 > npm run dev
 
-# Serveur Azure
-> user : david
-> mdp : Bloc3azure00
+# Repo de Florian
+[text](https://github.com/Floriansp40/golfepade)
